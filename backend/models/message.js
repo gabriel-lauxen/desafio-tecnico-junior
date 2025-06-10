@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes) => {
   Message.init(
     {
       content: DataTypes.STRING,
+      isUser: DataTypes.BOOLEAN,
     },
     {
       sequelize,

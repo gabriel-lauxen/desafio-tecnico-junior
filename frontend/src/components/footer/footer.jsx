@@ -21,7 +21,7 @@ const Footer = ({ onSendMessage }) => {
   return (
     <AppBar position="static" color="white">
       <footer className={Styles.footer}>
-        <div className={Styles.container}>
+        <div className="container">
           <form className={Styles.form} onSubmit={handleSubmit}>
             <TextField
               id="outlined-basic"
@@ -30,7 +30,12 @@ const Footer = ({ onSendMessage }) => {
               onChange={(e) => setMessage(e.target.value)}
               fullWidth
             />
-            <Button variant="contained" type="submit" endIcon={<SendIcon />}>
+            <Button
+              variant="contained"
+              type="submit"
+              sx={{ borderRadius: "3rem", padding: "0.5rem 1.5rem" }}
+              endIcon={<SendIcon />}
+            >
               Enviar
             </Button>
           </form>

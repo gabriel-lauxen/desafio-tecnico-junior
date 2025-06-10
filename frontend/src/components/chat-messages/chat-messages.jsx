@@ -25,7 +25,12 @@ const ChatMessages = ({ messages }) => {
     <div className={`container ${Styles.chatMessagesContainer}`}>
       <div className={Styles.chatMessages}>
         {messages.map((message) => (
-          <div key={message.id} className={Styles.message}>
+          <div
+            key={message.id}
+            className={`${Styles.message} ${
+              message.isUser ? Styles.userMessage : Styles.botMessage
+            }`}
+          >
             <p className="chat-message-content">{message.content}</p>
             <span className="chat-message-timestamp">
               {formatDate(message.createdAt)}

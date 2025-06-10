@@ -10,7 +10,15 @@ router.post("/", async (req, res) => {
     if (!content) {
       return res.status(400).json({ error: "A mensagem está vazia" });
     }
-    const message = await Message.create({ content });
+
+    //cria a mensagem do usuario no banco
+    const message = await Message.create({ isUser: true, content });
+
+    // cria outra mensagem no banco respondendo a mensagem do usuário
+    await Message.create({
+      isUser: false,
+      content: "Mensagem recebida com sucesso!",
+    });
     res.json({ message: "Mensagem recebida com sucesso!", data: message });
   } catch (error) {
     console.error(error);

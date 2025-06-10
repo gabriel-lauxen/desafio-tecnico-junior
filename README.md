@@ -1,6 +1,10 @@
 ## Desafio Técnico DKW System: Gabriel Lauxen
 
-## Demonstração do front com as rotas funcionando:
+## Demonstração Frontend
+
+<img src="./frontend/public/gifs/demonstracao-chat.gif">
+
+## Demonstração Frontend com rotas funcionando:
 
 <img src="./frontend/public/gifs/demonstracao-chat-rotas.gif">
 

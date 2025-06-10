@@ -8,7 +8,7 @@ const Header = () => {
     <AppBar position="static" color="secondary">
       <Toolbar>
         <div className="container">
-          <img src="/images/logo-4u-icon.svg" alt="Logo" />
+          <img src="/images/DKW-LOGO.svg" alt="Logo" className={Styles.logo} />
           <Typography variant="h6" component="div" className={Styles.title}>
             Chat
           </Typography>

@@ -33,3 +33,9 @@ code {
   gap: 0.5rem;
   box-sizing: border-box;
 }
+
+.MuiInputBase-root,
+.MuiOutlinedInput-root,
+.MuiInput-root {
+  border-radius: 3rem !important;
+}

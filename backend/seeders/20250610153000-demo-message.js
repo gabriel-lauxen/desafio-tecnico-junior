@@ -6,101 +6,37 @@ module.exports = {
       [
         {
           content: "Oi, tudo bem?",
+          isUser: true,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          content: "Oi! Tudo sim, e você?",
+          content: "Sim, tudo ótimo! E você?",
+          isUser: false,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          content: "Também estou bem, obrigado por perguntar.",
+          content: "Estou bem também, obrigado por perguntar.",
+          isUser: true,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          content: "Que bom! Como foi seu dia?",
+          content: "Como posso ajudar você hoje?",
+          isUser: false,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          content: "Foi tranquilo, trabalhei bastante. E o seu?",
+          content: "Preciso de informações sobre o projeto.",
+          isUser: true,
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          content: "O meu também, tive algumas reuniões.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Legal! Tem planos para o fim de semana?",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Ainda não, talvez saia com alguns amigos. E você?",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Vou visitar meus pais no interior.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Que bacana! Faz tempo que não os vê?",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Sim, faz alguns meses já.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Aproveite bastante então!",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Obrigado! Depois te conto como foi.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Combinado! Se cuida na estrada.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Pode deixar, obrigado pela preocupação.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "De nada! Qualquer coisa me avisa.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Pode deixar, vou avisar sim.",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Boa viagem e bom fim de semana!",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Obrigado, pra você também!",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
-        {
-          content: "Valeu! Até mais.",
+          content: "Claro! Sobre qual parte do projeto você gostaria de saber?",
+          isUser: false,
           createdAt: new Date(),
           updatedAt: new Date(),
         },

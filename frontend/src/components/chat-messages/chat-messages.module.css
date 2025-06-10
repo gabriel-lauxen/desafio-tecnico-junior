@@ -7,7 +7,6 @@
 .chatMessages {
   display: flex;
   flex-direction: column;
-  align-items: end;
   width: 100%;
   padding-top: 1rem;
   padding-inline: 0.5rem;
@@ -15,15 +14,12 @@
 
 .message {
   display: flex;
-  justify-content: flex-end;
   flex-direction: column;
-  align-items: flex-end;
   margin-bottom: 0.5rem;
   max-width: min(500px, 70%);
 }
 
 .message p {
-  background-color: aliceblue;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
 }
@@ -32,4 +28,24 @@
   font-size: 0.8rem;
   margin: 0.25rem;
   color: gray;
+}
+
+.userMessage span {
+  align-self: flex-end;
+}
+
+.userMessage {
+  align-self: flex-end;
+}
+
+.userMessage p {
+  background-color: aliceblue;
+}
+
+.botMessage {
+  align-self: flex-start;
+}
+
+.botMessage p {
+  background-color: #f0f0f0;
 }

@@ -1,4 +1,10 @@
 .title {
   font-size: 1.25rem;
   font-weight: 300;
+  align-self: center;
+}
+
+.logo {
+  width: 100px;
+  align-self: center;
 }
