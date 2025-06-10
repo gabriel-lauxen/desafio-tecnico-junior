@@ -3,7 +3,7 @@
 ## Demonstração Frontend
 
 <p align="center">
-   <img src="./frontend/public/gifs/demonstracao-chat.gif" style="max-heigth: 500px; display: block; margin: 0 auto;">
+   <img src="./frontend/public/gifs/demonstracao-chat.gif" style="max-height: 600px; display: block; margin: 0 auto;">
 </p>
 
 ## Demonstração Frontend com rotas funcionando:
