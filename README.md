@@ -3,13 +3,13 @@
 ## Demonstração Frontend
 
 <p align="center">
-   <img src="./frontend/public/gifs/demonstracao-chat.gif" style="max-height: 600px; display: block; margin: 0 auto;">
+   <img src="./frontend/public/gifs/demonstracao-chat.gif" height="600">
 </p>
 
 ## Demonstração Frontend com rotas funcionando:
 
 <p align="center">
-   <img src="./frontend/public/gifs/demonstracao-chat-rotas.gif" style="max-width: 1000px; display: block; margin: 0 auto;">
+   <img src="./frontend/public/gifs/demonstracao-chat-rotas.gif" >
 </p>
 
 ### Descrição do Desafio
