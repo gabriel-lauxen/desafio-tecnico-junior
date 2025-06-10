@@ -21,6 +21,7 @@ Envia uma nova mensagem e salva no banco de dados.
     "data": {
       "id": 29,
       "content": "Agora estou testando o post",
+      "isUser": true,
       "updatedAt": "2025-06-10T18:31:47.878Z",
       "createdAt": "2025-06-10T18:31:47.878Z"
     }
@@ -39,12 +40,14 @@ Lista o histórico de mensagens salvas.
     {
       "id": 1,
       "content": "Oi, tudo bem?",
+      "isUser": true,
       "createdAt": "2025-06-10T17:48:49.868Z",
       "updatedAt": "2025-06-10T17:48:49.868Z"
     },
     {
       "id": 2,
       "content": "Oi! Tudo sim, e você?",
+      "isUser": false,
       "createdAt": "2025-06-10T17:48:49.868Z",
       "updatedAt": "2025-06-10T17:48:49.868Z"
     }
