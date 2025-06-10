@@ -1,4 +1,8 @@
-## Desafio Técnico DKW System: Desenvolvedor Júnior
+## Desafio Técnico DKW System: Gabriel Lauxen
+
+## Demonstração do front com as rotas funcionando:
+
+<img src="./frontend/public/gifs/demonstracao-chat-rotas.gif">
 
 ### Descrição do Desafio
 
@@ -11,11 +15,13 @@ Você deverá criar uma aplicação simples onde os usuários podem enviar mensa
 #### Requisitos:
 
 1. **Frontend**:
+
    - Desenvolver uma interface de chat simples utilizando **React.js** e **Material-UI 14**.
    - O usuário deve ser capaz de enviar mensagens e visualizar um histórico de mensagens enviadas.
    - A interface deve ser responsiva e bem estruturada.
 
 2. **Backend**:
+
    - Criar uma API utilizando **Node.js com Express**.
    - Integrar o backend com o banco de dados utilizando **Sequelize**.
    - A API deve:
@@ -31,16 +37,19 @@ Você deverá criar uma aplicação simples onde os usuários podem enviar mensa
    - A integração com o banco de dados deve ser feita utilizando **Sequelize**.
 
 ### Avaliação:
+
 - **Frontend**: Organização do código, uso do Material-UI 14 e a experiência do usuário.
 - **Backend**: Arquitetura da API, clareza e eficiência nas rotas, integração com o banco de dados usando Sequelize.
 - **Banco de Dados**: Simplicidade e organização das tabelas, uso do Sequelize.
 
 ### O que Esperamos de Você:
+
 - Capacidade de estruturar e organizar seu código de forma clara e eficiente;
 - Conhecimento nas tecnologias especificadas (React.js, Node.js, Express, PostgreSQL, Sequelize);
 - Uso correto do Material-UI 14 no frontend.
 
 ### Como Enviar:
+
 - Fork o repositório e envie o link do seu repositório com a solução;
 - O código deve estar bem organizado, com comentários explicando as partes principais da implementação;
 - Caso não consiga finalizar algum requisito, explique o que conseguiu fazer até o momento e como faria para completar.

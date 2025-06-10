@@ -1,0 +1,19 @@
+.footer {
+  padding: 0.5rem;
+}
+
+.form {
+  width: 100%;
+  gap: 0.5rem;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+  box-sizing: border-box;
+}

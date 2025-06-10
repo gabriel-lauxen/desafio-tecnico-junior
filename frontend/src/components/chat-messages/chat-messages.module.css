@@ -1,0 +1,35 @@
+.chatMessagesContainer {
+  flex: 1 1 auto;
+  align-items: start;
+  overflow-y: auto;
+}
+
+.chatMessages {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  padding-top: 1rem;
+  padding-inline: 0.5rem;
+}
+
+.message {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 0.5rem;
+  max-width: min(500px, 70%);
+}
+
+.message p {
+  background-color: aliceblue;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.message span {
+  font-size: 0.8rem;
+  margin: 0.25rem;
+  color: gray;
+}
