@@ -2,11 +2,15 @@
 
 ## Demonstração Frontend
 
-<img src="./frontend/public/gifs/demonstracao-chat.gif">
+<p align="center">
+   <img src="./frontend/public/gifs/demonstracao-chat.gif" style="max-width: 650px; display: block; margin: 0 auto;">
+</p>
 
 ## Demonstração Frontend com rotas funcionando:
 
-<img src="./frontend/public/gifs/demonstracao-chat-rotas.gif">
+<p align="center">
+   <img src="./frontend/public/gifs/demonstracao-chat-rotas.gif" style="max-width: 1000px; display: block; margin: 0 auto;">
+</p>
 
 ### Descrição do Desafio
 
